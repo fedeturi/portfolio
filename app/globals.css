@@ -202,6 +202,7 @@ nav {
 }
 
 .nav-links a {
+  cursor: pointer;
   text-decoration: none;
   color: var(--black);
   font-weight: 700;
@@ -210,6 +211,7 @@ nav {
 }
 
 .nav-links a:hover {
+  cursor: pointer;
   background: var(--accent);
   outline: var(--border-width) solid var(--black);
 }
