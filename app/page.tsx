@@ -36,7 +36,7 @@ export default function Home() {
       <div className="marquee">
         <div className="marquee-content">
           TIENDA NUBE // SHOPIFY // REACT // TYPESCRIPT // PYTHON // DJANGO // LIQUID //
-          WORDPRESS // WOO COMMERCE WEB TECH // AGENTICS AI // TIENDA NUBE // SHOPIFY //
+          WORDPRESS // WOO COMMERCE // WEB TECH // AGENTIC AI // TIENDA NUBE // SHOPIFY //
           REACT // TYPESCRIPT // PYTHON // DJANGO // LIQUID //
 
         </div>
@@ -53,13 +53,13 @@ export default function Home() {
             <span className="tag">react.js</span>
             <span className="tag">python</span>
             <span className="tag">django</span>
-            <span className="tag">2025</span>
+            <span className="tag year">2025</span>
           </div>
           <h3>FLOCABULARY</h3>
           <p style={{ margin: "15px 0" }}>
             Fullstack development for API and Frontend. Flocabulary is a learning platform for educational institutions all over the world that uses hip-hop and musical theory to enhance the learning experience. Pretty cool right?
           </p>
-          <a href="https://www.flocabulary.com/" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a className="explore" href="https://www.flocabulary.com/" target="_blank" style={{ fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
@@ -67,13 +67,13 @@ export default function Home() {
           <img src="/images/project-2.jpg" alt="Project 2" className="project-img" />
           <div className="project-tags">
             <span className="tag">react.js</span>
-            <span className="tag">2024</span>
+            <span className="tag year">2024</span>
           </div>
           <h3>CUNDA</h3>
           <p style={{ margin: "15px 0" }}>
             Landing Page development. Cunda is an AI asisted ERP team builder.
           </p>
-          <a href="https://www.cunda.io/en/" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a className="explore" href="https://www.cunda.io/en/" target="_blank" style={{ fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
@@ -81,13 +81,13 @@ export default function Home() {
           <img src="/images/project-3.jpg" alt="Project 3" className="project-img" />
           <div className="project-tags">
             <span className="tag">react.js</span>
-            <span className="tag">2023</span>
+            <span className="tag year">2023</span>
           </div>
           <h3>AMAUTA</h3>
           <p style={{ margin: "15px 0" }}>
             Landing Page development. Amauta is a Data/AI/ML consultancy firm.
           </p>
-          <a href="https://www.amauta.ai" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a className="explore" href="https://www.amauta.ai" target="_blank" style={{ fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
@@ -95,13 +95,13 @@ export default function Home() {
           <img src="/images/project-4.jpg" alt="Project 4" className="project-img" />
           <div className="project-tags">
             <span className="tag">tiendanube</span>
-            <span className="tag">2023</span>
+            <span className="tag year">2023</span>
           </div>
           <h3>CLEA SPORT</h3>
           <p style={{ margin: "15px 0" }}>
             E-commerce platform creation using Tiendanube.com.
           </p>
-          <a href="https://www.cleasport.com.ar/" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a className="explore" href="https://www.cleasport.com.ar/" target="_blank" style={{ fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
@@ -109,13 +109,13 @@ export default function Home() {
           <img src="/images/project-5.jpg" alt="Project 4" className="project-img" />
           <div className="project-tags">
             <span className="tag">tiendanube</span>
-            <span className="tag">2023</span>
+            <span className="tag year">2023</span>
           </div>
           <h3>HANNAH LINGERIE</h3>
           <p style={{ margin: "15px 0" }}>
             E-commerce platform creation using Tiendanube.com.
           </p>
-          <a href="https://www.hannahlingeriemayorista.com" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a className="explore" href="https://www.hannahlingeriemayorista.com" target="_blank" style={{ fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
@@ -126,13 +126,13 @@ export default function Home() {
             <span className="tag">django</span>
             <span className="tag">DRF</span>
             <span className="tag">react.js</span>
-            <span className="tag">2022</span>
+            <span className="tag year">2022</span>
           </div>
           <h3>RIPIO</h3>
           <p style={{ margin: "15px 0" }}>
             Fullstack development for B2B API and Frontend. Ripio is a Crypto exchange and Fintech B2B provider with over 12 years of experience, and operations all over the world.
           </p>
-          <a href="https://www.ripio.com/es" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a className="explore" href="https://www.ripio.com/es" target="_blank" style={{ fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
@@ -169,7 +169,7 @@ export default function Home() {
           <p>
             <strong>LOCATION:</strong> Córdoba 🇦🇷 // Remote
           </p>
-          <div style={{ marginTop: "40px", display: "flex", gap: "20px" }}>
+          <div className="footer-link" style={{ marginTop: "40px", display: "flex", gap: "20px" }}>
             <a href="https://x.com/fedeturi" target="_blank" style={{ color: "var(--accent)", textDecoration: "none", fontWeight: 700 }}>
               TWITTER
             </a>
