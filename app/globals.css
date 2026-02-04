@@ -430,12 +430,14 @@ textarea {
   font-family: "Space Mono", monospace;
   font-size: 1rem;
   box-shadow: 6px 6px 0px var(--primary);
+  color: var(--black);
 }
 
 input:focus,
 textarea:focus {
   outline: none;
   background: var(--accent);
+  color: var(--black);
 }
 
 button {
@@ -489,6 +491,12 @@ footer {
   border: var(--border-width) solid var(--black);
   top: -20px;
   right: -20px;
+}
+
+a:hover {
+  cursor: pointer;
+  background: var(--accent);
+  outline: var(--border-width) solid var(--black);
 }
 
 /* @media (max-width: 1200px) {
