@@ -118,6 +118,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -291,6 +292,7 @@ nav {
   0% {
     transform: translateX(0px);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -487,8 +489,8 @@ footer {
   right: -20px;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .container {
     width: 100%;
   }
-}
+} */

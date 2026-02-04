@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <h3>CLEA SPORT</h3>
           <p style={{ margin: "15px 0" }}>
-            E-commerce platform creation using Teindanube.com.
+            E-commerce platform creation using Tiendanube.com.
           </p>
           <a href="https://www.cleasport.com.ar/" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
             EXPLORE →
@@ -113,7 +113,7 @@ export default function Home() {
           </div>
           <h3>HANNAH LINGERIE</h3>
           <p style={{ margin: "15px 0" }}>
-            E-commerce platform creation using Teindanube.com.
+            E-commerce platform creation using Tiendanube.com.
           </p>
           <a href="https://www.hannahlingeriemayorista.com" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
             EXPLORE →
