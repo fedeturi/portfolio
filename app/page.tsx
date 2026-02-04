@@ -87,7 +87,7 @@ export default function Home() {
           <p style={{ margin: "15px 0" }}>
             Landing Page development. Amauta is a Data/AI/ML consultancy firm.
           </p>
-          <a href="https://www.cunda.io/en/" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
+          <a href="https://www.amauta.ai" target="_blank" style={{ color: "inherit", fontWeight: 700 }}>
             EXPLORE →
           </a>
         </div>
